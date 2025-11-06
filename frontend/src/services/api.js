@@ -2,9 +2,7 @@ import axios from 'axios';
 
 const API_BASE_URL = 'https://neurawatch-backend.onrender.com';
 
-
-console.log("Loaded API URL:", import.meta.env.VITE_API_URL);
-
+console.log("Using API URL:", API_BASE_URL);
 
 const api = axios.create({
   baseURL: API_BASE_URL,
